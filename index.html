@@ -1,12 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BritLex</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/favicon-britlex.png" type="image/x-icon">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>BritLex</title>
 </head>
+
 <body>
-    
+  <div class="container">
+    <!-- HEADER -->
+    <header class="mt-3">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="./images/Britlex.svg" alt="Britlex logo"></a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mx-auto mt-2 ">
+            <li class="nav-item ">
+              <a class="nav-link font-w-5 color-dark-light-custom" href="#home">Home </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link font-w-5 color-dark-light-custom" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link font-w-5 color-dark-light-custom " href="#aboutUs">About Us</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link font-w-5 color-dark-light-custom " href="#pricing ">Pricing</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link font-w-5 color-dark-light-custom " href="#contact">Contacts</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-dark fs-5 my-2 my-sm-0 py-2 px-4 border-dark-light-custom"
+            data-bs-toggle="modal" data-bs-target="#staticBackdrop">Let's
+            Talk</button>
+        </div>
+      </nav>
+    </header>
+    <!-- /HEADER -->
+    <main>
+      <!-- Home section -->
+      <section class="home-section" id="home">
+        <div class="row  align-items-center ">
+          <div class="col-6">
+            <div>
+              <div class="d-flex">
+                <div>
+                  <h2 class="fw-semibold w-75 fs-1">
+                    Learn
+                  </h2>
+                  <h2 class="fw-semibold w-75 fs-1">
+                    Any Foreign
+                  </h2>
+                  <h2 class="fw-semibold w-75 fs-1">
+                    Language
+                  </h2>
+                </div>
+                <img class="" src="./images/light-bulb-svgrepo-com-1.svg" alt="" width="85">
+              </div>
+              <p class="text-secondary w-75 my-5">
+                With our teachers who write a program for
+                each student, you will be able to make your
+                first sketch after the first lesson.
+              </p>
+              <button class="btn text-white bg-dark-light-custom fs-3 " data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"> Get started</button>
+            </div>
+          </div>
+          <img class="col-6" src="./images/Learning-languages-bro-1.svg" alt="" width="661">
+        </div>
+      </section>
+      <!-- Skills section -->
+      <section class="skills-section " id="skills">
+        <h3 class="text-center fs-1 fw-semibold my-5 ">Skills</h3>
+        <div class="row  g-4 my-5 ">
+          <div class="col-4 ">
+            <div class="card bg-light px-4 py-5 border border-0 ">
+              <img src="./images/Shared-goals-bro-1.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-semibold fs-3 mt-3">Speaking</h5>
+                <p class="card-text text-secondary  mt-4">Improve your English skills and confidence.
+                  Live classes and interactive lessons online.
+                  20% extra free for a limited time only</p>
+                <p class="card-text text-secondary mb-4">Learn English online and improve your
+                  skills through our high-quality courses
+                  and resources - all designed for adult language learners.</p>
+                <a href="#" class="btn btn-dark w-75 py-3 py-md-3 mt-4" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 ">
+            <div class="row">
+              <div class="col-6 ">
+                <div class="card bg-light p-4 border border-0">
+                  <img src="./images/Typewriter-bro-1.svg" class="card-img-top" alt="" height="247  ">
+                  <div class="card-body">
+                    <h5 class="card-title fw-semibold fs-3">Writeing</h5>
+                    <p class="card-text text-secondary mb-5">One of the most important and extensive
+                      areas of natural science, the science that
+                      studies substances, also their composition </p>
+                    <a href="#" class="btn btn-dark py-3 px-5 " data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 ">
+                <div class="card bg-light p-4 border border-0">
+                  <img src="./images/huose.svg" class="card-img-top" alt="..." height="247">
+                  <div class="card-body">
+                    <h5 class="card-title fw-semibold fs-3">Reading</h5>
+                    <p class="card-text text-secondary mb-5">perception and response actions of the user
+                      resulting from the use and/or upcoming use
+                      of the product, system or service</p>
+                    <a href="#" class="btn btn-dark py-3 px-5 " data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-light mb-3 p-4 mt-4 border border-0">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fw-semibold fs-3 mb-3  ">Listening</h5>
+                    <p class="card-text text-secondary mb-5">Here you can find activities to practise
+                      your listening skills. Listening will help you
+                      to improve your understanding </p>
+                    <a href="#" class=" btn btn-dark py-3 px-5" data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="./images/Podcast-audience-bro-1.svg" class="img-fluid " alt="..." height="255">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About us section -->
+      <section class="about-section my-5" id="aboutUs">
+        <div class="row align-items-end ">
+          <div class="col-5">
+            <h3 class="fs-1 fw-semibold mb-5">About Us</h3>
+            <p class="text-secondary mb-5">
+              The model offers a framework for discussing problems related to the user's
+              experience, as well as possible ways and means of solving them. Application development begins at the top
+              level (strategy), where the future software product is described quite abstractly from the point of view
+              of the expectations of both users and the customer.
+            </p>
+            <div class="row text-center ">
+              <div class="col-4  ">
+                <h4 class="fw-semibold fs-2">800</h4>
+                <p class="text-secondary">Pupils</p>
+              </div>
+              <div class="col-3  ">
+                <h4 class="fw-semibold fs-2">18</h4>
+
+                <p class="text-secondary">Teachers</p>
+              </div>
+              <div class="col-5">
+                <h4 class="fw-semibold fs-2">6</h4>
+                <p class="text-secondary">Foreign languages</p>
+              </div>
+            </div>
+          </div>
+          <img class="col-6  ms-auto" src="./images/Business-competition-bro-1.svg" alt=" Business competition"
+            height="500">
+        </div>
+      </section>
+      <!--Pricing section  -->
+      <section id="pricing" class="pricing-section my-5">
+        <h3 class="fs-1 fw-semibold my-5 text-center">Pricing</h3>
+        <div class="row align-items-end justify-content-between">
+          <diw class="col-4">
+            <div class="card border-0">
+              <img src="./images/Online test-bro-1.svg" class="card-img-top" alt="..." height="311">
+              <div class="card-body">
+                <h5 class="card-title fs-3 fw-semibold">Self-study online course</h5>
+                <p class=" text-secondary mt-4">Start learning English online in live classes
+                  with qualified EC teachers and students
+                  from all over the world.</p>
+                <button id="price-1" class="btn  bg-light"> <span class="fs-4 ">£5.99 </span><span
+                    class="  text-secondary"> per month</span></button>
+              </div>
+            </div>
+          </diw>
+          <diw class="col-4">
+            <div class="card border-0">
+              <img class="card-img-top" src="./images/Lesson-bro-1.svg" alt="..." height="283">
+              <div class="card-body">
+                <h5 class="card-title fs-3 fw-semibold">Live online classes</h5>
+                <p class=" text-secondary my-4">Interactive group classes with expert
+                  teachers. Free 7-day trial.</p>
+                <button id="price-2" onclick="priceFn2()" class="btn  bg-light mt-3"> <span class="fs-4 ">£12.99
+                  </span><span class="  text-secondary"> per month</span></button>
+              </div>
+            </div>
+          </diw>
+          <diw class="col-4">
+            <div class="card border-0">
+              <img src="./images/Webinar-bro-2.svg" class="card-img-top" alt="..." height="340">
+              <div class="card-body">
+                <h5 class="card-title fs-3 fw-semibold">Personal Tuition</h5>
+                <p class=" text-secondary my-4">Online one-to-one English tutoring - enjoy
+                  our first session for only $1</p>
+                <button id="price-3" onclick="priceFn3()" class="btn  bg-light  mt-3"> <span class="fs-4 ">£20.99
+                  </span><span class="  text-secondary"> per month</span></button>
+              </div>
+            </div>
+          </diw>
+
+        </div>
+      </section>
+      <!--Contact section  -->
+      <section class="contact-section " id="contact">
+        <div class="row align-items-center justify-content-around">
+          <div class="col-5">
+            <img class="mt-5" src="./images/res11.svg" alt="" height="429">
+          </div>
+          <div class="col-6 contact-inner">
+            <h3 class="fs-1 fw-semibold ">Contact Us</h3>
+            <p class=" text-secondary my-5">Discover your current English level by taking our free online English
+              test.Sign up to our newsletter for learning tips and free resources</p>
+            <div id="alert-form" class="alert alert-success d-none " role="alert">
+              Thank you for joining us.
+            </div>
+            <form id="form" class="form-inline d-flex gap-3">
+              <input class="form-control w-75 px-4 py-3" type="email" required name="email" id="email"
+                placeholder="Enter Your E-mail">
+              <button class="btn btn-dark bg-dark-light-custom px-5 font-w-5" type="submit">Subscribe </button>
+            </form>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- /MAIN -->
+    <!-- FOOTER -->
+    <footer class="my-5 border-top border-2 pt-5">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="./images/Britlex.svg" alt="Britlex logo"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav   ms-auto gap-0 ">
+            <li class="nav-item list-unstyled text-secondary ">
+              <a class="nav-link  font-w-5 text-secondary" href="#home">Terms and Conditions </a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link font-w-5 text-secondary" href="#"> Privacy Policy</a>
+            </li>
+            <li class="nav-item  ms-3">
+              <a class="nav-link font-w-5 text-secondary " href="#">Cookie Policy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <!-- /FOOTER -->
+    <!-- Modal --1 -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-info">
+
+            </div>
+            <div id="alert-form-modal" class="alert alert-success d-none   " role="alert">
+              Thank you for joining us.
+            </div>
+            <form id="form-modal" class="form-inline d-flex gap-3">
+              <input class="form-control  px-4 py-3" type="email" required name="email" id="email"
+                placeholder="Enter Your E-mail">
+              <button class="btn btn-dark bg-dark-light-custom w-25 font-w-5" type="submit">Subscribe </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- JavaScript -->
+  <script defer src="./js/index.js"></script>
 </body>
+
 </html>
